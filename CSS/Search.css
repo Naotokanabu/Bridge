@@ -1,0 +1,15 @@
+body{
+    background-color:#00CCFF;
+    text-align:center;
+}
+.main{
+	display:inline-block;
+	background-color:white;
+	height:400px;
+	width:600px;
+	margin:100px;
+}
+p{
+	margin:100px;
+	font-size:30px;
+}

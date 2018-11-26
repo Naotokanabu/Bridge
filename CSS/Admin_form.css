@@ -1,0 +1,49 @@
+body{
+	background-color:#00CCFF;
+}
+#main{
+    background-color:white;
+    margin:70px 0px;
+    padding:60px;
+    height:500px;
+}
+p{
+	margin:30px;
+}
+
+#where{
+	border-style:groove;
+	height:20px;
+	width:700px;
+	position:relative;
+    float:left;
+    padding:30px 5px 30px 330px;
+    margin:20px;
+    margin-left:90px;
+}
+#answer{
+	background-color:#33CCFF;
+	border-style:groove;
+	height:260px;
+	width:260px;
+	position:relative;
+	float:left;
+	margin:100px;
+	margin-left:200px;
+	line-height:180px;
+	text-align:center;
+}
+#question{
+	background-color:#FFFF66;
+	border-style:groove;
+	height:260px;
+	width:260px;
+	position:relative;
+	float:left;
+	margin:100px;
+	line-height:180px;
+	text-align:center;
+}
+#send{
+	float:right;
+}*/

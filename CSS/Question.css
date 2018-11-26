@@ -1,0 +1,43 @@
+body{
+	background-color:#00CCFF;
+}
+.questioner{
+    /*background-color:white;*/
+    /*border-style:groove;*/
+    padding:30px;
+    margin:60px 300px;
+    height:130px;
+    position:relative;
+}
+#logo_quetion{
+	border-style:groove;
+	width:15px;
+	float:left;
+}
+.answer{
+	/*background-color:white;*/
+/*    border-style:groove;*/
+    padding:30px;
+    margin:60px 300px;
+    height:130px;
+    position:relative;
+}
+#logo_answer{
+	border-style:groove;
+	width:15px;
+	float:left;
+}
+#photo{
+	float:left;
+/*	border-style:groove;
+*//*	position:absolute;
+*/	margin-left:160px;
+}
+
+
+
+button{
+	float:right;
+	margin-top:80px;
+
+}

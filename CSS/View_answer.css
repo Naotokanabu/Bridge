@@ -1,0 +1,24 @@
+body{
+	background-color:#00CCFF;
+	position:relative;
+	margin-left:0 auto;
+}
+table,td,tr{
+	border: outset 0.1px black;
+	margin:100px;
+	position:relative;
+	font-size:23px;
+	text-align:center;
+}
+#whole{
+	background-color:white;
+	margin:20px;
+	padding:20px;
+	/*position:relative;*/
+	font-size:20px;
+}
+p{
+	font-family:"MS PGothic", "Osaka", Arial, sans-serif;
+	font-size:40px;
+	text-align:center;
+}
