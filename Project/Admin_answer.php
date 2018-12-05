@@ -5,10 +5,11 @@ session_start();
 <html>
 <head>
 <maa charset="UTF=8">
-<!--    <link rel="stylesheet" href="../CSS/Question.css"> -->
+<link rel="stylesheet" href="../CSS/Admin_answer.css">
    <title>Admin_search_answer.php</title>
 </head>
 <body>
+  <div id = whole>
 	<p>YOU can find an answer</p>
 
 	<table>
@@ -51,5 +52,6 @@ session_start();
     			 ?>
      </table>
      <a href="Form.php"><button type="button">Back</button></a>
+   </div>
 </body>
 </html>

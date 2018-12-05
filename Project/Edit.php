@@ -18,13 +18,9 @@ $email			=$_SESSION["email"];
 	  <div id =main>
 	 	 <div id =profile>Profile</div>
 	  		 <p>Name</p>
-		     	 <input type="text" name="name"   		size="40" 	value=<?php echo"$name"?>>
-	  		 <p>Country</p>
-				  <input type="text" name="country"		size="40"  	value=<?php echo"$country"?>>
-	 		 <p>Exsperience</p>
-				 <input type="text"	name="exsperience" 	size="40"	value=<?php echo"$exsperience"?>>
+		     	 <input type="text" name="name" maxlength='20' pattern="^[1-9A-Za-z]+$" placeholder='please put your password' required size="40" value=<?php echo"$name"?>>
 	  		 <p>Email</p>
-			     <input type="text" name="email" size="40"		value=<?php echo"$email"?>><br>
+			     <input type="text" name="email" maxlength='50' pattern="^[1-9A-Za-z]+$" placeholder='please put your password' required size="40" value=<?php echo"$email"?>><br>
 
      		 <input type="submit" name="send" value="edit">
 	   </div>

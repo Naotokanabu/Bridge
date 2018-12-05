@@ -15,18 +15,17 @@ session_start();
 	<div id =main>
  
 			<div id= "where">which page do you like to go?</div>
+		<div id= "answer">
+			<a href="Admin_answer.php">
+				<input type="button" name="anwer" class="answer" value="answer">
+			</a>
+		</div>
 
-			<div id= "answer">
-				<a href="Admin_answer.php">
-					<input type="button" name="anwer" value="answer">
-				</a>
-			</div>
-
-			<div id= "question">
-				<a href="Admin_question.php">
-					<input type="button" name="question" value="question">
-				</a>
-			</div>
+		<div id= "question">
+			<a href="Admin_question.php">
+				<input type="button" name="anwer" class="question" value="question">
+			</a>
+		</div>
 
 	</div>
    <a href ="admin_logout.php">

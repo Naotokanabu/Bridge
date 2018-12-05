@@ -62,7 +62,11 @@ session_start();
 				<input type="button" name="view" class="view" value="view_answer">
 			</a>	
 		</div>
-
+		<div id = mail>
+			<a href="Mail.php">
+				<input type="button" name="mail" class="mail" value="mail">
+			</a>	
+		</div>
 	</div>
    </a href ="Logout.php">
     <button type="submit" name="logout">Logout</button></div>

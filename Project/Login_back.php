@@ -45,6 +45,6 @@ if(count($project) > 0){
  		}
 	}
 ?>
-<!-- <?php
+<?php
 header('Location: Form.php');
-?>  -->
+?> 

@@ -5,17 +5,19 @@ session_start();
 <html>
 <head>
 <maa charset="UTF=8">
-<!--    <link rel="stylesheet" href="../CSS/Question.css"> -->
+<link rel="stylesheet" href="../CSS/Admin_question.css">
    <title>Admin_search_answer.php</title>
 </head>
 <body>
-	<p>YOU can find an answer</p>
+  <div id =whole>
+	<!-- <p>YOU can find an answer</p> -->
 
 	<table>
 		<tr>
-      		<td>Answer</td>
-			<td>Name of questioner</td>
-			<td>ID</td>
+      <td>QuestionID</td>
+			<td>Question</td>
+			<td>personID</td>
+      <td>name</td>
 			<td>country</td>
 			<td>email</td>
 		</tr>
@@ -23,18 +25,18 @@ session_start();
 				<?php
  				include 'dbconect.php';
     
-				$sql = "SELECT * FROM answer";
-				$overcome = $conn->query($sql);
-					// var_dump($result);
+				$sql = "SELECT * FROM question";
+				$project = $conn->query($sql);
+				// var_dump('$project');
 
 
- 					if ($overcome->num_rows > 0) {
-    						while($row = $overcome->fetch_assoc()) {
+ 					if (count($project) > 0) {
+    						while($row = $project->fetch_assoc()) {
      							echo"<tr>";
-                  echo"<td>".$row["personID"]."</td>";
                   echo"<td>".$row["questionID"]."</td>";
+                  echo"<td>".$row["question"]."</td>";
+                  echo"<td>".$row["personID"]."</td>";                  
     							echo"<td>".$row["name"]."</td>";
-    							echo"<td>".$row["question"]."</td>";
     					 		echo"<td>".$row["country"]."</td>";
     							echo"<td>".$row["email"]."</td>";
 
@@ -50,6 +52,7 @@ session_start();
    						 }
     			 ?>
      </table>
-     <a href="Form.php"><button type="button">Back</button></a>
+     <a href="Admin_Form.php"><button type="button">Back</button></a>
+  </div>
 </body>
 </html>

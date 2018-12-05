@@ -16,5 +16,5 @@
 ?>
 
 <?php
-// header('Location:Admin_form.php');
+header('Location:Admin_form.php');
 ?>

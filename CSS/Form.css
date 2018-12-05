@@ -6,35 +6,20 @@ body{
     margin:40px 40px;
     padding:60px;
     height:650px;
-    width:1500px;
+    width:1200px;
     text-align:center;
 }
-/*.profile{
-	margin-top:65px;
-	border-style:groove;
-    position:relative;
-    height:450px;
-    width:200px;
-    line-height:30px;
-    float:left;
-	font-family:"MS PGothic", "Osaka", Arial, sans-serif;
-	font-size:17px;
-}*/
 p{
 	margin:30px;
+	margin-left:600px;
 	font-family:"MS PGothic", "Osaka", Arial, sans-serif;
 	font-size:45px;
-	text-align:center;
+	/*text-align:center;*/
 }
-/*#detail{
-	background-color:#FF3366;
-	font-family:"MS PGothic", "Osaka", Arial, sans-serif;
-	font-size:25px;
-}*/
 #where{
 	/*border-style:groove;*/
 	height:20px;
-	width:100%;
+	width:1150px;
 	position:relative;
     float:left;
     padding:10px 5px 30px 100px;
@@ -81,10 +66,10 @@ input.question{
 	line-height:180px;
 	width:210px;
 	position:relative;
-	/*float:left;*/
+	float:left;
 	margin:40px;
-	margin-left:0px;
-	line-height:180px;
+	margin-left:130px;
+/*	line-height:180px;*/
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	border-radius: 3px;
@@ -100,7 +85,7 @@ input.delete{
 	position:relative;
 	float:left;
 	margin:40px;
-	margin-left:300px;
+	margin-left:130px;
 	line-height:180px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -125,7 +110,23 @@ input.view{
 	-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
 	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
 }
-
+input.mail{
+	background-color:#CCFFFF;
+	border-style:groove;
+	height:210px;
+	line-height:180px;
+	width:210px;
+	position:relative;
+	float:left;
+	margin:40px;
+	margin-left:130px;
+	line-height:180px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2);
+	-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2);
+}
 #send{
 	float:right;
 	text-align:center;

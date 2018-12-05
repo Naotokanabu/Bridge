@@ -16,5 +16,5 @@
 ?>
 
 <?php
-// header('Location:Delete.php');
+header('Location:Form.php');
 ?>

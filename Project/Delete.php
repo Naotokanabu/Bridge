@@ -11,9 +11,11 @@ table,td,tr{
 	border: solid 0.1px black;
 }
 </style>
+<link rel="stylesheet" href="../CSS/Delete.css">
 <title>Delete</title>
 </head>
 <body>
+	<div id ="whole">
 	<p>Whick one do you want to delete?</p>
 
 	<table>
@@ -61,5 +63,6 @@ table,td,tr{
 		?>
 	</table>
 	<a href="Form.php"><button type="button">Back</button></a>
+	</div>
 </body>
 </html>
