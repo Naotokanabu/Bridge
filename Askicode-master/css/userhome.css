@@ -1,0 +1,106 @@
+.favdiv{
+
+	width: 90%;
+	height: 400px;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-left: auto;
+	border: 0px solid red;
+	display: -ms-flexbox;     /* IE10    */
+	display: -webkit-box;     /* Android */
+	display: -webkit-flex;    /* Safari  */
+	display: flex;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;      /* IE10    */
+	-webkit-flex-wrap: wrap;  /* Safari  */
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+
+.favlist 
+{
+
+	width: 250px;
+	height: 320px;
+	border: 1px solid rgba(220,220,220,1);
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 3%;
+	margin-left: 3%;
+	border-radius: 30px 30px 30px 30px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+
+}
+
+.favtitle{
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	font-size: 20px;
+	width: 90%;
+	border: 0px solid black;
+
+}
+
+.favdetaildiv{
+
+	border: 0px solid black;
+	width: 90%;
+	height: 100px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.favdetail{
+	color: gray;
+}
+
+.favID{
+
+	margin-top: 10px;
+	text-align: center;
+	border: 0px solid black;
+	
+}
+
+.favicondiv{
+
+	width: 100px;
+	height: 100px;
+	border: 0px solid black;
+	border-radius: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+
+.favicon{
+
+	width: 100px;
+	height: 100px;
+	border: 0px solid black;
+	border-radius: 50%;
+	object-fit: cover;
+
+}
+
+.favline{
+
+	width: 80%;
+	height: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	border-bottom: 1px double gray;
+
+}
+
+.favbutton{
+
+	text-align: center;
+
+}

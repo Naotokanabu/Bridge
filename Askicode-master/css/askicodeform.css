@@ -1,0 +1,38 @@
+.forminput{
+	width: 60%;
+	outline: 0;
+  	border-color: none;
+
+}
+
+.formdiv{
+	border: 0px solid black;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+.input{
+	width: 80%;
+	border: 0px solid black;
+  	table-layout: fixed;
+  	border-collapse: collapse;
+  	margin-right: auto;
+  	margin-left: auto;
+  	padding-top: 10px;
+	padding-left: 2%;
+	padding-bottom: 30px;
+	padding-right: 2%;
+	text-align: center;
+}
+
+.button{
+	text-align: center;
+	margin-top: 35px;
+	margin-right: auto;
+	margin-left: auto;
+}
+

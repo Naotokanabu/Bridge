@@ -1,0 +1,144 @@
+.chatcolumn{
+	border: 1px solid blue;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid rgba(220,220,220,1);
+	border-radius: 20px 20px 20px 20px;
+	box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.1);
+	margin-top: 20px;
+	margin-bottom: 10px;
+	display: -ms-flexbox;     /* IE10    */
+	display: -webkit-box;     /* Android */
+	display: -webkit-flex;    /* Safari  */
+	display: flex;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;      /* IE10    */
+	-webkit-flex-wrap: wrap;  /* Safari  */
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	min-width: 1000px;
+}
+
+.columnIDandname{
+
+	width: 170px;
+	height: 180px;
+	padding: 10px 10px 10px 10px;
+	
+
+}
+
+.IDandnametable{
+	text-align: center;
+	border: 0px solid orange;
+	margin-bottom: auto;
+	margin-top: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+.columnID{
+
+	text-align: center;
+	border: 0px solid red;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 15px;
+}
+
+.columnname{
+
+	text-align: center;
+	border: 0px solid pink;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.iconimage{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	object-fit: cover;
+	text-align: center;
+}
+
+.columntextinside{
+	border: 0px solid gray;
+	width: 95%;
+	height: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 8px;
+	margin-bottom: auto;
+	word-break: break-all;
+}
+
+.columntext{
+	border: 0px solid navy;
+	width: 100%;
+}
+
+.columnfileandtime{
+	border: 0px solid green;
+	margin-right: 10px;
+	width: 170px;
+}
+
+.columntime{
+	font-size: 10px;
+	border: 0px solid pink;
+}
+
+.columnlink{
+	border: 0px solid red;
+	padding-bottom: 167px;
+	text-align: center;
+}
+
+.columnlinktext{
+	text-decoration: none;
+	color: black;
+}
+
+.commentdiv{
+	border: 1px solid pink;
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.commentarea{
+	resize: none;
+	width: 100%;
+	height: 100%;
+}
+
+.columnbutton{
+	text-align: center;
+}
+
+.columntable{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.titleanddetail{
+	width: 90%;
+	height: 90px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.formtitle{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+
+
+

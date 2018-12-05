@@ -1,0 +1,25 @@
+.textleft{
+	text-align: left;
+}
+
+.textright{
+	text-align: right;
+}
+
+.buttontable{
+	text-align: center;
+	border: 0px solid black;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.buttontd{
+	width: 160px;
+
+}
+
+.message{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

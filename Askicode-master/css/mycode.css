@@ -1,0 +1,67 @@
+.mycodediv{
+
+	width: 90%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	border: 0px solid gray;
+	display: -ms-flexbox;     /* IE10    */
+	display: -webkit-box;     /* Android */
+	display: -webkit-flex;    /* Safaria  */
+	display: flex;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;      /* IE10    */
+	-webkit-flex-wrap: wrap;  /* Safari  */
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-bottom: 100px;
+	margin-bottom: 100px;
+
+}
+
+.mycodelist{
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+	font-size: 15px;
+
+}
+
+.mycodeview{
+
+	margin-right: auto;
+	margin-left: auto;
+	border: 1px solid rgba(220,220,220,1);
+	width: 60%;
+
+}
+
+.tableline{
+	table-layout: fixed;
+  	border-collapse: collapse;
+	border-bottom: 1px solid gray;
+  	font-size: 15px;
+  	width: 100%;
+}
+
+.tablecolumn{
+	border-top: 1px solid rgba(100,100,100,1);
+	border-bottom: 1px solid rgba(100,100,100,1);
+	table-layout: fixed;
+  	border-collapse: collapse;
+
+}
+
+.tabledata{
+	border-top: 1px solid rgba(220,220,220,1);
+	border-bottom: 1px solid rgba(220,220,220,1);
+	table-layout: fixed;
+  	border-collapse: collapse;
+
+}
+
+.tablebutton{
+	width: 55px;
+}

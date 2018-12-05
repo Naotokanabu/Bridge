@@ -1,0 +1,105 @@
+.askcodepage{
+	width: 90%;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 20px;
+	border: 0px solid gray;
+	display: -ms-flexbox;     /* IE10    */
+	display: -webkit-box;     /* Android */
+	display: -webkit-flex;    /* Safari  */
+	display: flex;
+	flex-direction: row;
+	-ms-flex-wrap: wrap;      /* IE10    */
+	-webkit-flex-wrap: wrap;  /* Safari  */
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.askcodediv{
+
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+
+
+}
+
+.askformdiv{
+	border: 1px solid gray;
+	width: 40%;
+	height: 500px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.askform{
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+}
+
+.askforminside{
+
+	width: 90%;
+	height: 90%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.askformbutton{
+
+	text-align: center;
+
+}
+
+.askcodereviewdiv{
+
+	width: 90%;
+	height: 900px;
+	border: 0px solid gray;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+
+.askcodereview{
+
+	width: 99%;
+	height: 100%;
+	resize: none;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+.tableline{
+	table-layout: fixed;
+  	border-collapse: collapse;
+  	font-size: 15px;
+}
+
+.tabledata{
+	border-top: 1px solid rgba(220,220,220,1);
+	border-bottom: 1px solid rgba(220,220,220,1);
+	table-layout: fixed;
+  	border-collapse: collapse;
+
+}
+
+.tablecolumn{
+	border-top: 1px solid rgba(100,100,100,1);
+	border-bottom: 1px solid rgba(100,100,100,1);
+	table-layout: fixed;
+  	border-collapse: collapse;
+
+}
+
+.tabletitle{
+
+	width: 250px;
+
+}

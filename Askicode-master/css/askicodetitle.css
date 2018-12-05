@@ -1,0 +1,50 @@
+.cuts{
+ 		       	/*背景の切り抜き*/
+            text-align: center;      
+            background-image: url("CSSimg/joel-filipe-195321-unsplash.jpg");
+            background-position: center;
+            -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+
+           /*背景を動かす*/
+ 		       animation: moveBg 40s infinite linear;
+}
+
+.title{
+
+        text-align:center;
+        margin-top: 0%;    
+        margin-bottom: 10px;
+        color: black;
+        font-size: 10rem;
+        font-weight: bold;
+
+}
+
+@keyframes moveBg{
+
+    0%     { background-position: 1000px 3000px; }
+    50%    { background-position: 1000px 3200px; }
+    100%   { background-position: 1000px 3000px; }
+
+}
+
+.ifont{
+
+            /*iだけのcss*/
+            text-align: center;
+            background-image: url("CSSimg/joel-filipe-195321-unsplash.jpg");
+            background-position: center;
+            -webkit-background-clip: text;
+           -webkit-text-fill-color: transparent;
+ 	    	   animation: moveBgi 40s infinite linear;
+
+}
+
+@keyframes moveBgi{
+
+    0%    { background-position: 2500px 3000px; }
+    50%  { background-position: 1900px 2700px; }
+    100%    { background-position: 2500px 3000px; }
+
+}

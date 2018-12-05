@@ -1,0 +1,19 @@
+.notice{
+	padding: 0px;
+	margin: 0px;
+	height: 30px;
+}
+
+.input2{
+	width: 80%;
+	border: 0px solid black;
+  	table-layout: fixed;
+  	border-collapse: collapse;
+  	margin-right: auto;
+  	margin-left: auto;
+  	padding-top: 10px;
+	padding-left: 2%;
+	padding-bottom: 0px;
+	padding-right: 2%;
+	text-align: center;
+}
