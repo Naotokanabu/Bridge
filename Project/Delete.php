@@ -11,7 +11,7 @@ table,td,tr{
 	border: solid 0.1px black;
 }
 </style>
-<link rel="stylesheet" href="../CSS/Delete.css">
+<link rel="stylesheet" href="../CSS/Table.css">
 <title>Delete</title>
 </head>
 <body>
@@ -20,7 +20,6 @@ table,td,tr{
 
 	<table>
 		<tr>
-	<!-- 		<td>Questioner Number</td> -->
 			<td>Name</td>
 			<td>question</td>
 			<td></td>
@@ -34,9 +33,7 @@ table,td,tr{
 		// echo $_SESSION['id'];
 		// I can get infomation
 
-
-//table内にパスワードと名前が一致するユーザーがいる場合、登録しているユーザーの名前とidを取ってくる　17行まで
-			$sql = "SELECT name,personID,question,questionID FROM question WHERE personID = $id";
+			$sql = "SELECT name,personID,question,questionID FROM question WHERE personID = '$id'";
 			$overcome = $conn->query($sql);
 			// var_dump($overcome);
 			// I can get infomation
@@ -61,7 +58,7 @@ table,td,tr{
 				}
 			}
 		?>
-	</table>
+	</table><br>
 	<a href="Form.php"><button type="button">Back</button></a>
 	</div>
 </body>

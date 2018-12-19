@@ -14,11 +14,11 @@ session_start();
 	<div id =main>
 	  <div id =profile>Profile</div>
 	   <p>Password</p>
-			  <input type="int" name="password" size="40" minlength="4" maxlength='8' pattern="^[1-9A-Za-z]+$" placeholder='please put your password' required>
+			  <input type="int" name="password" size="40" minlength="4" maxlength='10' pattern="[0-9]+$" placeholder='please put your password' required>
 	   <p>Name</p>
-		      <input type="text" name="name" size="40" minlength="4" maxlength='20' pattern="^[1-9A-Za-z]+$" placeholder='please put your name' required>
+		      <input type="text" name="name" size="40" minlength="4" maxlength='20' pattern="^[A-Za-z]+$" placeholder='please put your name' required>
 		<p>Email</p>
-			  <input type="text" name="email" size="40" maxlength='50' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder='please put your email' required><br><br><br>
+			  <input type="email" name="email" size="40" maxlength='50' pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder='please put your email' required><br><br><br>
 <?php 
 echo "Country"."<br>";
 if(isset($_POST['places'])) {  
@@ -27,7 +27,7 @@ if(isset($_POST['places'])) {
 }
 ?><br>
 
-<select name="places" size="1">
+<select name="places" size="1" >
   <option value="North_america">North Amrica</option>
   <option value="South_america">South Amrica</option>
   <option value="Asia">Asia</option>
@@ -52,9 +52,14 @@ if(isset($_POST['places'])) {
 <!-- </form> -->
 <p>The country name and experience can not be edited anymore</p>
 
-     	<input type="submit" name="send" value="send">
+<input type="submit" name="send" value="send">
+
+<p>If you are already registered please click the button below</p>
+
+<a href="Login.php"><button type="button">Go to Login page</button></a>
    </div>
   </form>
+
 
 </body>
 </html>

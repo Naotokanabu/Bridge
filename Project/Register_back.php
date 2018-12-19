@@ -27,22 +27,15 @@ $_session["email"]        = $_POST["email"];
 // var_dump($_session["exsperience"]);
 // var_dump($_session["email"]);
 
-// $sql = "INSERT INTO project (password,name,country,exsperience,email)
-// VALUES ('$password','$name','$country','$exsperience','$email')";
 
-// if ($conn->query($sql) === TRUE) {
-//     echo "New record created successfully";
-// } else {
-//     echo "Error: " . $sql . "<br>" . $conn->error;
-// }
-
-$sql = "SELECT * FROM project WHERE password ";
+$sql = "SELECT * FROM project WHERE password = '$password'";
 $project = $conn->query($sql);
+
 
 if(count($project) > 0){
   $row = $project->fetch_assoc();
-    if($password == $row['password']  ){
-        echo"false";
+    if($password == $row['password']){
+         var_dump($row['password']);
         header('Location:Register.php');
         }else{
          echo"sccess";

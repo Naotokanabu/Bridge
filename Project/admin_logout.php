@@ -5,8 +5,8 @@ session_start();
 <html>
 <head>
 <maa charset="UTF=8">
-   <link rel="stylesheet" href="../CSS/Admin_logout.css">
-   <title>Admin_logout</title>
+   <link rel="stylesheet" href="../CSS/Logout.css">
+   <title>Logout</title>
 </head>
 <body>
  <div id = main>

@@ -39,5 +39,5 @@ if(count($project) > 0){
 
 <!-- mail(送信先,タイトル,本文,追加ヘッダ,追加コマンドラインパラメータ) -->
 <?php
-header('Location: Form.php');
+header('Location: Login.php');
 ?> 

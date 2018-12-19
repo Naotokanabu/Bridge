@@ -5,7 +5,7 @@ session_start();
 <html>
 <head>
 <maa charset="UTF=8">
-   <link rel="stylesheet" href="../CSS/View_answer.css">
+   <link rel="stylesheet" href="../CSS/Table.css">
    <title>Viesw_search</title>
 </head>
 <body>
@@ -35,7 +35,7 @@ session_start();
    						 }
     			 ?>
      </table>
-  </div>
+  </div><br>
      <a href="Form.php"><button type="button">Back</button></a>
 
 </body>

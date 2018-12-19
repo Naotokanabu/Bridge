@@ -8,7 +8,7 @@ $name			=$_SESSION["name"];
 $country		=$_SESSION["country"];
 $email			=$_SESSION["email"];
 $answer 		=$_GET["answer"];
-$id 			=$_GET["id"];
+// $id 			=$_GET["id"];
 // echo"$answer";
 // var_dump($id);
 // var_dump($email);
@@ -17,7 +17,7 @@ $id 			=$_GET["id"];
 // var_dump($country);
 // I cna get infomation
 
-$sql = "INSERT INTO answer (answer,questionID,name,country,email) VALUES ('$answer','$id','$name','$country','$email')";
+$sql = "INSERT INTO answer (answer,name,country,email) VALUES ('$answer','$name','$country','$email')";
 
 
 // $answer = $conn->query($sql);

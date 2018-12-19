@@ -10,7 +10,7 @@ session_start();
 <html>
 <head>
 <maa charset="UTF=8">
-   <link rel="stylesheet" href="../CSS/Question_search.css">
+   <link rel="stylesheet" href="../CSS/Table.css">
    <title>Question_search</title>
 </head>
 <body>
@@ -22,7 +22,7 @@ session_start();
       <td>Questioner ID</td>
 			<td>Name</td>
 			<td>Country</td>
-			<td>Email</td>
+			<!-- <td>Email</td> -->
 			<td>Question</td>
 			<td></td>
 		</tr>
@@ -37,17 +37,17 @@ session_start();
  					if ($overcome->num_rows > 0) {
     						while($row = $overcome->fetch_assoc()) {
      							echo"<tr>";
-                      echo"<td>".$row["questionID"]."</td>";
+                      echo"<td>".$row["questionID"]."</td>";//primary key
     						      echo"<td>".$row["name"]."</td>";
                       echo"<td>".$row["country"]."</td>";
-                      echo"<td>".$row["email"]."</td>";
+                      // echo"<td>".$row["email"]."</td>";
    								   echo"<td>".$row["question"]."</td>";
 
    								  $rownum = $row["personID"];
-                    $_SESSION["id"] = $row["questionID"];
+                    // $_SESSION["id"] = $row["questionID"];
 
    								echo"<td>".
-     								"<a href='Answer.php?question_id=$rownum'>
+     								"<a href='Answer.php?question_id = $rownum'>
      										<input type ='submit' name ='answer' value='Answer'>
      								</a>"."</td>";
    								echo"</tr>";
@@ -55,7 +55,7 @@ session_start();
    						 }
     			 ?>
      </table>
-   </div>
+   </div><br>
 
      <a href="Form.php"><button type="button">Back</button></a>
 </body>

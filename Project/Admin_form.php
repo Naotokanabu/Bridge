@@ -28,8 +28,9 @@ session_start();
 		</div>
 
 	</div>
-   <a href ="admin_logout.php">
-    <input type="submit" name="logout" value="logout">
+   <a href ="Admin_logout.php">
+    <input type="submit" name="logout" value="Logout">
    </a>
+
 </body>
 </html>

@@ -5,7 +5,7 @@ session_start();
 <html>
 <head>
 <maa charset="UTF=8">
-<link rel="stylesheet" href="../CSS/Admin_question.css">
+<link rel="stylesheet" href="../CSS/Table.css">
    <title>Admin_search_answer.php</title>
 </head>
 <body>
@@ -51,7 +51,7 @@ session_start();
      							}
    						 }
     			 ?>
-     </table>
+     </table><br>
      <a href="Admin_Form.php"><button type="button">Back</button></a>
   </div>
 </body>
